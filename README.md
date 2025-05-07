@@ -43,7 +43,7 @@ python src/model_training.py
 ### 3. Start the FastAPI server
 
 ```bash
-uvicorn main:app --reload
+uvicorn app:app --reload
 ```
 
 Visit the docs at: [http://localhost:8000/docs](http://localhost:8000/docs)
